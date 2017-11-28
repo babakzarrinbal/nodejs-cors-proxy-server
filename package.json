@@ -1,0 +1,55 @@
+{
+  "_from": "cors-proxy-server",
+  "_id": "cors-proxy-server@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-O6n7Ce4PO8xJ3zFrVCA53ksXlcQ=",
+  "_location": "/cors-proxy-server",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cors-proxy-server",
+    "name": "cors-proxy-server",
+    "escapedName": "cors-proxy-server",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cors-proxy-server/-/cors-proxy-server-1.0.2.tgz",
+  "_shasum": "3ba9fb09ee0f3bcc49df316b542039de4b1795c4",
+  "_spec": "cors-proxy-server",
+  "_where": "D:\\xampp\\htdocs\\ap",
+  "author": {
+    "name": "Antonio Aguilar"
+  },
+  "bin": {
+    "cors-proxy-server": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/antonioaguilar/cors-proxy-server/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "http-proxy": "^1.15.2",
+    "proxy-from-env": "^0.1.1"
+  },
+  "deprecated": false,
+  "description": "Simple CORS proxy server",
+  "homepage": "https://github.com/antonioaguilar/cors-proxy-server#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "cors-proxy-server",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonioaguilar/cors-proxy-server.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}
